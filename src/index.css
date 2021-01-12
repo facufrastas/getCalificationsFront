@@ -1,0 +1,25 @@
+body {
+    margin: 30px !important;
+    background-color: #333335 !important;
+    color: white !important;
+}
+
+.alineado-completo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .select-speciality {
+    width: 80% !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .select-speciality {
+    width: 30% !important;
+  }
+}
